@@ -78,7 +78,7 @@ body {
 }
 
 #hero-section .img-section {
-    background-image: url("../img/header-img.png");
+    background-image: url("img/header-img.png");
     background-size: cover;
     background-position: center;
     min-height: 65vh;    
@@ -279,7 +279,7 @@ body {
 .flex .img {
     height: 500px;
     width: 20%;
-    background: url("../img/image1.png") no-repeat;
+    background: url("img/image1.png") no-repeat;
     background-size: cover;
     background-position: left;
 }
@@ -295,7 +295,7 @@ body {
 .flex .img-auto {
     width: 40%;
     height: 500px;
-    background: url("../img/wires.png") no-repeat;
+    background: url("img/wires.png") no-repeat;
     background-size: cover;
     background-position: center;
 }
