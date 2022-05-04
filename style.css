@@ -357,3 +357,145 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+/* mobile view */
+@media (max-width: 425px) {
+    .main-header {
+        flex-direction: column;
+        align-items: flex-starts;
+    }
+
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation {
+        border: none;
+        width: 100%;
+    }
+
+    .right-section .navigation ul {
+        flex-direction: column;
+    }
+
+    .right-section ul li {
+        padding: 10px 0;
+        margin-right: 0;
+    }
+
+    .right-section ul li a {
+        display: block;
+    }
+
+    .road-assistance {
+        padding: 10px 0;
+    }
+
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    #hero-section .text-section, #hero-section .img-section  {
+        width: 100%;
+    }
+
+    #hero-section .text-section {
+        order: 2;
+    } 
+    .text-section h1 {
+        font-size: 35px;
+    }
+
+    #hero-section .img-section {
+        order: 1;
+    }
+
+    #quote-section .left-section, #quote-section .right-section {
+        width: 100%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 100%;
+    }
+
+    #quote-section .left-section .text-box h5 {
+        font-size: 20px;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 25px;
+    }
+
+    .flex .text-box p {
+        font-size: 14px;
+    }
+
+    #quote-section .left-section h2 {
+        font-size: 28px;
+    }
+
+    #process-section .left-section, #process-section .right-section {
+        width: 100%;
+    }
+
+    #process-section .left-section h2 {
+        width: 100%;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #process-section .left-section p {
+        margin-bottom: 20px;
+    }
+    .content-section h2 {
+        font-size: 28px;
+    }
+
+    .icon-sections {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .icon-sections .icon {
+        width: 100%;
+        height: 150px;
+    }
+
+    .learn-service img {
+        transform: rotate(90deg);
+    }
+
+    #cta {
+        height: 200px;
+    }
+
+    .flex .img {
+        height: 200px;
+    }
+
+    .flex .text-overlay {
+        height: 200px;
+    }
+
+    .flex .img-auto {
+        height: 200px;
+    }
+
+    .text-overlay div h2 {
+        font-size: 18px;
+    }
+
+    #experience .container1 {
+        flex-wrap: wrap;
+    }
+
+    .container1 .number h3 {
+        font-size: 35px;
+    }
+    
+}
