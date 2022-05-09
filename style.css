@@ -133,17 +133,19 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 #quote-section .left-section h2 {
     margin-bottom: 30px;
     font-size: 40px;
 }
 
 #quote-section .left-section .img-box {
-    width: 5%;
+    width: 30%;
     margin-right: 10px;
 }
 
-#quote-section .left-section .img-box img {
+.left-section .img-box img {
     width: 100%;
     padding: 30px;
 }
@@ -152,7 +154,7 @@ body {
     width: 50%;
 }
 
-#quote-section .left-section .text-box h5 {
+.left-section .text-box h5 {
     font-size: 24px;
     margin-bottom: 5px;
 }
@@ -346,7 +348,7 @@ body {
 
 
 /* mobile view */
-@media (max-width: 625px) {
+@media (max-width: 640px) {
     .main-header {
         flex-direction: column;
         align-items: flex-starts;
@@ -488,6 +490,89 @@ body {
         width: 30%;
     }
     
+}
+
+@media (min-width: 641px) and (max-width: 969px) {
+    #quote-section .left-section, #quote-section .right-section {
+        width: 50%;
+    }
+    
+    #quote-section .left-section h2 {
+        font-size: 20px;
+    }
+
+
+    #quote-section .left-section .img-box {
+        width: 48%;
+        margin-left: -35px;
+        margin-right: 10px;
+    }
+
+    .left-section .text-box h5 {
+        font-size: 14px;
+        margin-bottom: 2sspx;
+    }
+
+    .left-section .text-box p {
+        font-size: 9px;
+    }
+
+    .left-section .text-box a {
+        font-size: 10px;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 20px;
+    }
+
+    .right-form-section .input-box {
+        width: 80%;
+    }
+
+    .right-form-section .orange-btn {
+        font-size: 14px;
+    }
+
+    #process-section .left-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #cta .img, #cta .text-overlay, #cta .img-auto {
+        height: 60vh;
+    }
+
+    #cta {
+        height: 280px;
+    }
+
+    #cta .text-overlay h2 {
+        font-size: 20px;
+    }
+
+    #brands .brand-icon {
+        width: 100%;
+    }
+
+    .brand-icon img {
+        width: 18%;
+    }
+
+    .content-section h2 {
+        font-size: 22px;
+    }
+
+    .text-section h1 {
+        font-size: 25px;
+    }
+
+    .main-header .logo {
+        width: 60%;
+    }
+
+    .main-header .logo img {
+        width: 50%;
+    }
 }
 
 /* Services */
@@ -773,6 +858,10 @@ body {
     .icon-side .double .one, .icon-side .double .two {
         width: 130px;
         height: 130px;
+    }
+
+    .icon-side .double .one p, .icon-side .double .two p {
+        font-size: 10px;
     }
 }
 
@@ -1093,4 +1182,10 @@ body {
     #footer .text-section {
         margin-top: 20px;
     }
+}
+
+@media (min-width: 641px) and (max-width: 969px) {
+    #footer .text-section {
+        margin-top: 20px;
+    }   
 }
